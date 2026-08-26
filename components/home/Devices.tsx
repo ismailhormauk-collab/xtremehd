@@ -8,12 +8,12 @@ const FireTVIcon = () => (
 
 const SmartTVIcon = () => (
   <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="3" y="6" width="30" height="20" rx="2.5" stroke="white" strokeWidth="1.8" fill="none"/>
-    <rect x="7" y="10" width="22" height="12" rx="1" fill="white" fillOpacity="0.12"/>
-    <line x1="13" y1="26" x2="11" y2="31" stroke="white" strokeWidth="1.8" strokeLinecap="round"/>
-    <line x1="23" y1="26" x2="25" y2="31" stroke="white" strokeWidth="1.8" strokeLinecap="round"/>
-    <line x1="10" y1="31" x2="26" y2="31" stroke="white" strokeWidth="1.8" strokeLinecap="round"/>
-    <circle cx="18" cy="16" r="2" fill="white" fillOpacity="0.3"/>
+    <rect x="3" y="6" width="30" height="20" rx="2.5" stroke="#2563eb" strokeWidth="1.8" fill="none"/>
+    <rect x="7" y="10" width="22" height="12" rx="1" fill="#2563eb" fillOpacity="0.10"/>
+    <line x1="13" y1="26" x2="11" y2="31" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round"/>
+    <line x1="23" y1="26" x2="25" y2="31" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round"/>
+    <line x1="10" y1="31" x2="26" y2="31" stroke="#2563eb" strokeWidth="1.8" strokeLinecap="round"/>
+    <circle cx="18" cy="16" r="2" fill="#2563eb" fillOpacity="0.25"/>
   </svg>
 );
 
@@ -33,17 +33,17 @@ const AndroidIcon = () => (
 
 const AppleIcon = () => (
   <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M23.5 8.8C24.3 7.8 24.9 6.4 24.6 5C23.3 5.1 21.8 5.9 20.9 6.9C20.1 7.8 19.4 9.2 19.8 10.5C21.2 10.6 22.7 9.8 23.5 8.8Z" fill="white"/>
-    <path d="M27.4 21.5C27.4 18.7 28.9 16.4 31.3 15.2C29.9 13.2 27.8 12 25.4 11.9C22.9 11.7 20.6 13.4 19.3 13.4C18.1 13.4 16.1 12 13.9 12C11.3 12.1 8.9 13.5 7.5 15.8C4.6 20.5 6.7 27.4 9.4 31C10.7 32.8 12.3 34.8 14.3 34.7C16.3 34.6 17 33.5 19.4 33.5C21.8 33.5 22.4 34.7 24.4 34.7C26.5 34.6 27.9 32.7 29.2 30.9C29.9 29.9 30.5 28.8 31 27.6C28.7 26.6 27.4 24.1 27.4 21.5Z" fill="white"/>
+    <path d="M23.5 8.8C24.3 7.8 24.9 6.4 24.6 5C23.3 5.1 21.8 5.9 20.9 6.9C20.1 7.8 19.4 9.2 19.8 10.5C21.2 10.6 22.7 9.8 23.5 8.8Z" fill="#1e293b"/>
+    <path d="M27.4 21.5C27.4 18.7 28.9 16.4 31.3 15.2C29.9 13.2 27.8 12 25.4 11.9C22.9 11.7 20.6 13.4 19.3 13.4C18.1 13.4 16.1 12 13.9 12C11.3 12.1 8.9 13.5 7.5 15.8C4.6 20.5 6.7 27.4 9.4 31C10.7 32.8 12.3 34.8 14.3 34.7C16.3 34.6 17 33.5 19.4 33.5C21.8 33.5 22.4 34.7 24.4 34.7C26.5 34.6 27.9 32.7 29.2 30.9C29.9 29.9 30.5 28.8 31 27.6C28.7 26.6 27.4 24.1 27.4 21.5Z" fill="#1e293b"/>
   </svg>
 );
 
 const AppleTVIcon = () => (
   <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="3" y="7" width="30" height="20" rx="2.5" stroke="white" strokeWidth="1.6" fill="none"/>
-    <path d="M22.2 17.6C22.2 16.2 23 15.1 24.2 14.5C23.5 13.5 22.5 13 21.4 12.9C20.2 12.8 19.1 13.6 18.5 13.6C17.8 13.6 16.8 12.9 15.7 12.9C14.5 13 13.3 13.7 12.6 14.8C11.2 17 12.2 20.3 13.6 22C14.3 22.9 15.1 23.9 16.2 23.8C17.3 23.7 17.6 23.1 18.8 23.1C20 23.1 20.3 23.8 21.4 23.8C22.5 23.7 23.2 22.7 23.9 21.8C24.3 21.2 24.7 20.6 24.9 20C23.7 19.4 22.2 18.6 22.2 17.6Z" fill="white"/>
-    <path d="M20.7 12C21.1 11.5 21.4 10.8 21.2 10.1C20.6 10.1 19.9 10.5 19.5 11C19.1 11.4 18.8 12.1 19 12.8C19.7 12.8 20.3 12.5 20.7 12Z" fill="white"/>
-    <rect x="14" y="27" width="8" height="3" rx="1.5" fill="white" fillOpacity="0.35"/>
+    <rect x="3" y="7" width="30" height="20" rx="2.5" stroke="#1e293b" strokeWidth="1.6" fill="none"/>
+    <path d="M22.2 17.6C22.2 16.2 23 15.1 24.2 14.5C23.5 13.5 22.5 13 21.4 12.9C20.2 12.8 19.1 13.6 18.5 13.6C17.8 13.6 16.8 12.9 15.7 12.9C14.5 13 13.3 13.7 12.6 14.8C11.2 17 12.2 20.3 13.6 22C14.3 22.9 15.1 23.9 16.2 23.8C17.3 23.7 17.6 23.1 18.8 23.1C20 23.1 20.3 23.8 21.4 23.8C22.5 23.7 23.2 22.7 23.9 21.8C24.3 21.2 24.7 20.6 24.9 20C23.7 19.4 22.2 18.6 22.2 17.6Z" fill="#1e293b"/>
+    <path d="M20.7 12C21.1 11.5 21.4 10.8 21.2 10.1C20.6 10.1 19.9 10.5 19.5 11C19.1 11.4 18.8 12.1 19 12.8C19.7 12.8 20.3 12.5 20.7 12Z" fill="#1e293b"/>
+    <rect x="14" y="27" width="8" height="3" rx="1.5" fill="#1e293b" fillOpacity="0.35"/>
   </svg>
 );
 
@@ -73,16 +73,16 @@ const AndroidTVIcon = () => (
 
 const MAGBoxIcon = () => (
   <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="3" y="14" width="30" height="13" rx="3" stroke="white" strokeWidth="1.6" fill="none"/>
-    <rect x="3" y="14" width="30" height="13" rx="3" fill="white" fillOpacity="0.04"/>
-    <rect x="7" y="18.5" width="14" height="4" rx="1.2" fill="white" fillOpacity="0.18"/>
-    <rect x="7" y="18.5" width="5" height="4" rx="1" fill="white" fillOpacity="0.3"/>
-    <circle cx="27.5" cy="20.5" r="2" fill="#22C55E"/>
-    <circle cx="27.5" cy="20.5" r="1" fill="#86EFAC"/>
-    <path d="M15 27L13.5 31H22.5L21 27H15Z" fill="white" fillOpacity="0.2" stroke="white" strokeWidth="1.4" strokeLinejoin="round"/>
-    <line x1="11.5" y1="31" x2="24.5" y2="31" stroke="white" strokeWidth="1.6" strokeLinecap="round"/>
-    <rect x="7" y="10" width="5" height="4" rx="1" fill="white" fillOpacity="0.15"/>
-    <rect x="13.5" y="10" width="5" height="4" rx="1" fill="white" fillOpacity="0.15"/>
+    <rect x="3" y="14" width="30" height="13" rx="3" stroke="#2563eb" strokeWidth="1.6" fill="none"/>
+    <rect x="3" y="14" width="30" height="13" rx="3" fill="#2563eb" fillOpacity="0.05"/>
+    <rect x="7" y="18.5" width="14" height="4" rx="1.2" fill="#2563eb" fillOpacity="0.18"/>
+    <rect x="7" y="18.5" width="5" height="4" rx="1" fill="#2563eb" fillOpacity="0.3"/>
+    <circle cx="27.5" cy="20.5" r="2" fill="#2563eb"/>
+    <circle cx="27.5" cy="20.5" r="1" fill="#93c5fd"/>
+    <path d="M15 27L13.5 31H22.5L21 27H15Z" fill="#2563eb" fillOpacity="0.15" stroke="#2563eb" strokeWidth="1.4" strokeLinejoin="round"/>
+    <line x1="11.5" y1="31" x2="24.5" y2="31" stroke="#2563eb" strokeWidth="1.6" strokeLinecap="round"/>
+    <rect x="7" y="10" width="5" height="4" rx="1" fill="#2563eb" fillOpacity="0.15"/>
+    <rect x="13.5" y="10" width="5" height="4" rx="1" fill="#2563eb" fillOpacity="0.15"/>
   </svg>
 );
 
@@ -98,23 +98,24 @@ const devices = [
 ];
 
 import type { DevicesDict } from "@/locales/types";
+import { whatsappUrl } from "@/lib/contact";
 
 export default function Devices({ dict }: { dict: DevicesDict }) {
   return (
     <section className="py-12 lg:py-16 relative">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-100 to-transparent" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10">
-          <p className="text-xs font-bold text-violet-400 uppercase tracking-[0.15em] mb-3">
+          <p className="text-xs font-bold text-blue-600 uppercase tracking-[0.15em] mb-3">
             {dict.badge}
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-3">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-3">
             {dict.headline}
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg">
+          <p className="text-slate-500 text-base sm:text-lg">
             {dict.subheadline}
           </p>
         </div>
@@ -124,10 +125,10 @@ export default function Devices({ dict }: { dict: DevicesDict }) {
           {devices.map((d) => (
             <div
               key={d.name}
-              className="flex flex-col items-center justify-center gap-2.5 py-5 sm:py-6 rounded-2xl border border-white/[0.07] bg-white/[0.02] hover:border-white/[0.14] hover:bg-white/[0.04] transition-all duration-200"
+              className="flex flex-col items-center justify-center gap-2.5 py-5 sm:py-6 rounded-2xl border border-blue-100 bg-white hover:border-blue-300 hover:shadow-md hover:shadow-blue-500/5 transition-all duration-200"
             >
               <d.Icon />
-              <span className="text-[10px] sm:text-xs text-slate-400 font-medium text-center leading-tight px-1">{d.name}</span>
+              <span className="text-[10px] sm:text-xs text-slate-500 font-medium text-center leading-tight px-1">{d.name}</span>
             </div>
           ))}
         </div>
@@ -135,14 +136,14 @@ export default function Devices({ dict }: { dict: DevicesDict }) {
         <p className="mt-8 text-center text-slate-500 text-xs sm:text-sm">
           Don&apos;t see your device?{" "}
           <a
-            href="https://wa.me/447380310123"
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-violet-400 hover:text-violet-300 transition-colors"
+            className="text-blue-600 hover:text-blue-700 transition-colors"
           >
             Ask us on WhatsApp
           </a>
-          {" "}— we support virtually every internet-connected device.
+          {" "}— we support a wide range of internet-connected devices.
         </p>
 
       </div>

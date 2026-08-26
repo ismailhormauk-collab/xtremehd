@@ -1,11 +1,11 @@
 {
-  "name": "Exact IPTV",
-  "short_name": "ExactIPTV",
-  "description": "Premium IPTV – 50,000+ channels, 4K streaming",
+  "name": "Xtreme HD IPTV",
+  "short_name": "XtremeHD IPTV",
+  "description": "Premium IPTV subscription — HD & 4K streaming",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#050508",
-  "theme_color": "#7c3aed",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
   "icons": [
     {
       "src": "/favicon-192.png",

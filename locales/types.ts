@@ -1,10 +1,6 @@
-export type Locale = 'en' | 'fr' | 'de' | 'es'
-export const LOCALES: Locale[] = ['en', 'fr', 'de', 'es']
-export const DEFAULT_LOCALE: Locale = 'en'
-
 export type NavDict = {
   home: string; pricing: string; contact: string; blog: string
-  faq: string; about: string; freeTrial: string; getStarted: string
+  faq: string; about: string; reseller: string; freeTrial: string; getStarted: string
   startFreeTrial: string; viewPricing: string
 }
 export type HeroDict = {
@@ -15,17 +11,14 @@ export type HeroDict = {
 }
 export type FeatureItem = { title: string; description: string }
 export type FeaturesDict = { badge: string; headline: string; items: FeatureItem[] }
-export type PlanDict = { duration: string; period: string; description: string; perMonth: string; features: string[] }
-export type PricingDict = { badge: string; headline: string; subheadline: string; footnote: string; getStarted: string; mostPopular: string; plans: PlanDict[] }
+export type PricingDict = { badge: string; headline: string; subheadline: string; footnote: string; getStarted: string; mostPopular: string }
 export type FAQItem = { q: string; a: string }
 export type FAQSectionDict = { badge: string; headline: string; subtext: string; askUs: string; viewAll: string; faqs: FAQItem[] }
-export type CTADict = { badge: string; headline: string; subtext: string; chatButton: string; viewPlans: string; footnote: string }
-export type FooterDict = { description: string; navigation: string; contactUs: string; copyright: string; links: { pricing: string; faq: string; installation: string; contact: string; privacy: string; terms: string } }
-export type TestimonialsDict = { badge: string; headline: string }
+export type CTADict = { badge: string; headline: string; subtext: string; chatButton: string; telegramButton: string; viewPlans: string; footnote: string }
+export type FooterDict = { description: string; navigation: string; contactUs: string; copyright: string; links: { pricing: string; faq: string; installation: string; reseller: string; contact: string; privacy: string; terms: string } }
+export type StatItem = { value: string; label: string }
+export type TestimonialsDict = { badge: string; headline: string; stats: StatItem[] }
 export type DevicesDict = { badge: string; headline: string; subheadline: string }
-export type CheckoutPlanTranslation = {
-  label: string; period: string; savings: string | null; features: string[]
-}
 export type CheckoutDict = {
   pageTitle: string; pageDescription: string
   backToPricing: string; secureCheckout: string; sslNote: string
@@ -40,7 +33,6 @@ export type CheckoutDict = {
   securePrivate: string; securePrivateSub: string
   support247: string; support247Sub: string
   errorName: string; errorEmail: string
-  plans: { "1month": CheckoutPlanTranslation; "3months": CheckoutPlanTranslation; "6months": CheckoutPlanTranslation; "12months": CheckoutPlanTranslation }
 }
 export type PageMeta = { title: string; description: string }
 export type PagesDict = {
@@ -49,8 +41,9 @@ export type PagesDict = {
   faq: PageMeta & { hero: string; heroSub: string; askLink: string; allLabel: string; stillHave: string; stillHaveSub: string; askButton: string }
   contact: PageMeta & { hero: string; heroSub: string; helpTitle: string; promiseTitle: string; promiseStat1: string; promiseLabel1: string; promiseStat2: string; promiseLabel2: string; promiseStat3: string; promiseLabel3: string; ctaTitle: string; ctaSub: string; ctaButton: string }
   about: PageMeta & { hero: string; heroSub: string; missionTitle: string; mission1: string; mission2: string; valuesTitle: string; milestoneTitle: string; ctaTitle: string; ctaSub: string; ctaButton: string }
-  blog: PageMeta & { hero: string; heroSub: string; readMore: string; allPosts: string; noPosts: string }
+  blog: PageMeta & { hero: string; heroSub: string; readMore: string; allPosts: string; noPosts: string; comingSoon: string }
   installation: PageMeta & { hero: string; heroSub: string }
+  reseller: PageMeta & { hero: string; heroSub: string; benefitsTitle: string; howItWorksTitle: string; ctaTitle: string; ctaSub: string }
   privacy: PageMeta & { hero: string }
   terms: PageMeta & { hero: string }
 }

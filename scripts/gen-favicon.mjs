@@ -1,8 +1,9 @@
 /**
- * Generates public/favicon.ico (16×16 + 32×32) and public/favicon-192.png
- * using only Node built-in modules (no npm packages required).
+ * Generates public/favicon.ico (16×16 + 32×32), public/favicon-192.png,
+ * and public/apple-touch-icon.png using only Node built-in modules
+ * (no npm packages required).
  *
- * Design: purple gradient (#7c3aed → #5b21b6) rounded square + white play triangle.
+ * Design: blue gradient (#2563eb → #1d4ed8) rounded square + white play triangle.
  */
 
 import { deflateSync } from 'zlib';
@@ -118,11 +119,11 @@ function drawIcon(x, y, size) {
   const distToEdge = radius - Math.sqrt(outside);
   const alpha = Math.min(1, distToEdge * 2) * 255;
 
-  // Purple gradient: #7c3aed (TL) → #5b21b6 (BR)
+  // Blue gradient: #2563eb (TL) → #1d4ed8 (BR)
   const t = (cx + cy) / (size * 2);
-  const bgR = Math.round(0x7c + (0x5b - 0x7c) * t);
-  const bgG = Math.round(0x3a + (0x21 - 0x3a) * t);
-  const bgB = Math.round(0xed + (0xb6 - 0xed) * t);
+  const bgR = Math.round(0x25 + (0x1d - 0x25) * t);
+  const bgG = Math.round(0x63 + (0x4e - 0x63) * t);
+  const bgB = Math.round(0xeb + (0xd8 - 0xeb) * t);
 
   // Play triangle vertices (relative to size)
   const s = size;
@@ -151,6 +152,7 @@ mkdirSync('public', { recursive: true });
 const png16  = makePNG(16,  (x, y, s) => drawIcon(x, y, s));
 const png32  = makePNG(32,  (x, y, s) => drawIcon(x, y, s));
 const png192 = makePNG(192, (x, y, s) => drawIcon(x, y, s));
+const png180 = makePNG(180, (x, y, s) => drawIcon(x, y, s));
 
 const ico = makeICO([
   { size: 16, png: png16 },
@@ -159,6 +161,8 @@ const ico = makeICO([
 
 writeFileSync('public/favicon.ico', ico);
 writeFileSync('public/favicon-192.png', png192);
+writeFileSync('public/apple-touch-icon.png', png180);
 
 console.log(`favicon.ico  ${ico.length} bytes`);
 console.log(`favicon-192.png  ${png192.length} bytes`);
+console.log(`apple-touch-icon.png  ${png180.length} bytes`);

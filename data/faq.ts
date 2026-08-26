@@ -18,17 +18,17 @@ export const faqItems: FAQItem[] = [
   {
     category: "General",
     question: "Is there a free trial available?",
-    answer: "Contact us on WhatsApp at +44 7380 310123 to ask about current trial options. We occasionally offer short trials for new customers to experience the service quality."
+    answer: "Contact us on WhatsApp at +44 7576 599069 to ask about current trial options. We occasionally offer short trials for new customers to experience the service quality."
   },
   {
     category: "Pricing",
     question: "What pricing plans do you offer?",
-    answer: "We offer flexible plans: 1 Month (€20), 3 Months (€35), 6 Months (€45), and 12 Months (€65). The 12-month plan offers the best value at just €5.42/month — saving you over 73% compared to the monthly rate."
+    answer: "We offer flexible USD plans for 1 to 4 simultaneous devices. The 1-device base plan starts from $23 for 1 Month, with 3, 6, and 12-month terms offering better per-month value. See our Pricing page for the full price list across all device tiers."
   },
   {
     category: "Pricing",
     question: "What payment methods do you accept?",
-    answer: "We accept various payment methods. Contact us on WhatsApp (+44 7380 310123) for current payment options and to complete your order securely."
+    answer: "We accept various payment methods. Contact us on WhatsApp (+44 7576 599069) for current payment options and to complete your order securely."
   },
   {
     category: "Pricing",
@@ -88,7 +88,7 @@ export const faqItems: FAQItem[] = [
   {
     category: "Support",
     question: "How do I contact customer support?",
-    answer: "Our support team is available 24/7 via WhatsApp at +44 7380 310123. We typically respond within 15 minutes and can help with setup, technical issues, billing questions, and anything else you need."
+    answer: "Our support team is available 24/7 via WhatsApp at +44 7576 599069 or Telegram at @pulseiptv4k. We typically respond quickly and can help with setup, technical issues, billing questions, and anything else you need."
   },
   {
     category: "Support",
