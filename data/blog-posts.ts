@@ -5,6 +5,10 @@ import { CLUSTER_SMARTTV_ANDROID } from "./blog/cluster-smarttv-android";
 import { CLUSTER_PLAYERS } from "./blog/cluster-players";
 import { CLUSTER_TROUBLESHOOTING } from "./blog/cluster-troubleshooting";
 import { CLUSTER_REVIEWS } from "./blog/cluster-reviews";
+import { CLUSTER_APPLE_DESKTOP } from "./blog/cluster-apple-desktop";
+import { CLUSTER_ACCOUNT } from "./blog/cluster-account";
+import { CLUSTER_TROUBLESHOOTING2 } from "./blog/cluster-troubleshooting2";
+import { CLUSTER_FEATURES } from "./blog/cluster-features";
 
 export type { BlogPost } from "./blog/types";
 export { CATEGORIES, CATEGORY_STYLE, DEFAULT_CATEGORY_STYLE } from "./blog/types";
@@ -19,6 +23,10 @@ export const blogPosts: BlogPost[] = [
   ...CLUSTER_PLAYERS,
   ...CLUSTER_TROUBLESHOOTING,
   ...CLUSTER_REVIEWS,
+  ...CLUSTER_APPLE_DESKTOP,
+  ...CLUSTER_ACCOUNT,
+  ...CLUSTER_TROUBLESHOOTING2,
+  ...CLUSTER_FEATURES,
 ];
 
 export const getBlogPost = (slug: string): BlogPost | undefined =>

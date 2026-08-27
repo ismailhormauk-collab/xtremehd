@@ -1,7 +1,7 @@
 import {
   Tv2, HelpCircle, ArrowLeftRight, Flame,
   ShieldCheck, Wifi, Rocket,
-  Layers, PlaySquare, Smartphone, Star, Globe,
+  Layers, PlaySquare, Smartphone, Star, Globe, Apple, Lightbulb,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -30,8 +30,10 @@ const CATEGORY_ICONS: Record<string, LucideIcon> = {
   "Firestick": Flame,
   "Smart TV": Tv2,
   "Android": Smartphone,
+  "Apple TV": Apple,
   "IPTV Players": PlaySquare,
   "Troubleshooting": Wifi,
+  "IPTV Tips": Lightbulb,
   "Reviews & Comparisons": ArrowLeftRight,
 };
 

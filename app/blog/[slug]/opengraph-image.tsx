@@ -13,8 +13,10 @@ const categoryColors: Record<string, string> = {
   "Firestick": '#93c5fd',
   "Smart TV": '#60a5fa',
   "Android": '#93c5fd',
+  "Apple TV": '#60a5fa',
   "IPTV Players": '#60a5fa',
   "Troubleshooting": '#bfdbfe',
+  "IPTV Tips": '#93c5fd',
   "Reviews & Comparisons": '#93c5fd',
 };
 
