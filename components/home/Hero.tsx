@@ -35,7 +35,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
       </div>
 
       {/* ══ CONTENT ══ */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-14 xl:px-20 pt-24 pb-14 sm:pt-28 sm:pb-16 lg:pt-20 lg:pb-14">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-14 xl:px-20 pt-24 pb-20 sm:pt-28 sm:pb-24 lg:pt-20 lg:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 lg:gap-8 xl:gap-16 items-center">
 
           {/* ── LEFT ── */}

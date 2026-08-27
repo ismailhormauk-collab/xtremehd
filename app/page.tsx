@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getDictionary } from "@/locales/getDictionary";
 import { absoluteUrl } from "@/lib/url";
 import Hero from "@/components/home/Hero";
+import StatsBar from "@/components/home/StatsBar";
 import Features from "@/components/home/Features";
 import PricingSection from "@/components/home/PricingSection";
 import Devices from "@/components/home/Devices";
@@ -51,6 +52,7 @@ export default async function HomePage() {
       <Script id="home-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }} />
       <Script id="home-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqSchema) }} />
       <Hero dict={dict.hero} />
+      <StatsBar />
       <Features dict={dict.features} />
       <PricingSection dict={dict.pricing} />
       <Devices dict={dict.devices} />
