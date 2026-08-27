@@ -55,20 +55,11 @@ export const metadata: Metadata = {
     title: "IPTV Xtreme HD | Xtreme HD IPTV Subscription Provider",
     description:
       "Premium IPTV subscription with HD & 4K live channels, movies and series, multi-device support, and 24/7 support via WhatsApp & Telegram.",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Xtreme HD IPTV - Premium Streaming",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "IPTV Xtreme HD | Xtreme HD IPTV Subscription Provider",
     description: "Premium IPTV with HD & 4K quality, multi-device support, 24/7 support. Instant activation.",
-    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
