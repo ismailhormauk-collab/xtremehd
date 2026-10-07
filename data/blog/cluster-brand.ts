@@ -27,7 +27,7 @@ The IPTV space includes many services with similar or overlapping names. That's 
 
 - **Check the domain carefully** — confirm it reads exactly "iptvxtremehd.net", not a variation with extra words, different spelling, or a different top-level domain.
 - **Check that pricing matches** what's officially published — see our [pricing page](/pricing) directly for current plans.
-- **Check for real contact channels** — our official support is available via WhatsApp (+34 613 836 698) and Telegram (@pulseiptv4k), listed on our [contact page](/contact).
+- **Check for real contact channels** — our official support is available via WhatsApp (+44 7456 061424) and Telegram (@pulseiptv4k), listed on our [contact page](/contact).
 
 ## General Tips for Verifying Any IPTV Website
 
@@ -84,7 +84,7 @@ Official current pricing is published transparently on our [pricing page](/prici
 
 Official support channels are:
 
-- **WhatsApp**: +34 613 836 698
+- **WhatsApp**: +44 7456 061424
 - **Telegram**: @pulseiptv4k ([t.me/pulseiptv4k](https://t.me/pulseiptv4k))
 
 These are listed on our [contact page](/contact). If you're contacted through a different number or handle claiming to represent Xtreme HD IPTV, it's reasonable to verify against what's officially published here first.
@@ -206,7 +206,7 @@ Because both spellings are common across the wider internet, it's worth confirmi
 
 - Confirm the domain reads exactly **iptvxtremehd.net**
 - Confirm pricing matches our [pricing page](/pricing)
-- Confirm contact details match our [official contact page](/contact) — WhatsApp +34 613 836 698, Telegram @pulseiptv4k
+- Confirm contact details match our [official contact page](/contact) — WhatsApp +44 7456 061424, Telegram @pulseiptv4k
 
 ## A Note on Similarly Named Services
 
@@ -252,7 +252,7 @@ If you're looking for our service specifically, remember the spelling **Xtreme H
 
 - **Check the exact domain** — iptvxtremehd.net for our service specifically.
 - **Check the pricing structure** — our plans and current prices are listed on the [pricing page](/pricing); if what you're seeing elsewhere doesn't match, you may be looking at a different, unrelated provider.
-- **Check the contact details** — our official channels are WhatsApp (+34 613 836 698) and Telegram (@pulseiptv4k), listed on the [contact page](/contact).
+- **Check the contact details** — our official channels are WhatsApp (+44 7456 061424) and Telegram (@pulseiptv4k), listed on the [contact page](/contact).
 
 ## Why You Shouldn't Assume Similar Names Mean the Same Service
 
@@ -307,7 +307,7 @@ Our official domain is **iptvxtremehd.net**. To confirm you're there:
 
 - Check the domain spelling and extension carefully.
 - Compare pricing against our [pricing page](/pricing).
-- Compare contact details against our [contact page](/contact) — WhatsApp +34 613 836 698, Telegram @pulseiptv4k.
+- Compare contact details against our [contact page](/contact) — WhatsApp +44 7456 061424, Telegram @pulseiptv4k.
 - Review our [Terms of Service](/terms) to confirm you're reading policies that actually apply to this service.
 
 ## What to Do If You're Uncertain

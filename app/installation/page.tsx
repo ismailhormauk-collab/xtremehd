@@ -222,7 +222,7 @@ export default async function InstallationPage() {
             Our team sets up IPTV for you via WhatsApp or Telegram. Just message us and we&apos;ll walk you through every step.
           </p>
           <a
-            href={whatsappUrl("Hi, I need help setting up my device")}
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#25D366] rounded-xl text-white font-bold hover:opacity-90 transition-all shadow-lg shadow-green-500/20"

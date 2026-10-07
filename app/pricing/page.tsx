@@ -200,7 +200,7 @@ export default async function PricingPage() {
           <div className="mt-12 text-center">
             <p className="text-slate-500 mb-4">{p.footnote}</p>
             <a
-              href={whatsappUrl("Hi, I need help choosing a plan")}
+              href={whatsappUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2.5 px-6 py-3.5 bg-gradient-to-r from-[#25D366] to-[#1db954] rounded-xl text-white font-bold transition-all duration-300 hover:from-[#2EE574] hover:to-[#25D366] hover:shadow-[0_8px_32px_rgba(37,211,102,0.35)] hover:scale-[1.02] active:scale-[0.99]"

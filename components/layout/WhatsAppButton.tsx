@@ -11,7 +11,7 @@ const WhatsAppIcon = () => (
 export default function WhatsAppButton() {
   return (
     <a
-      href={whatsappUrl("Hi, I'm interested in subscribing. Can you help me?")}
+      href={whatsappUrl()}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"

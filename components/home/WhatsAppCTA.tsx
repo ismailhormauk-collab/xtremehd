@@ -26,7 +26,7 @@ export default function WhatsAppCTA({ dict }: { dict: CTADict }) {
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 max-w-md sm:max-w-none mx-auto">
           <a
-            href={whatsappUrl("Hi, I'd like to subscribe.")}
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2.5 px-7 py-3.5 bg-[#25D366] rounded-xl text-white font-semibold text-sm hover:bg-[#20BA5C] hover:shadow-[0_0_24px_rgba(37,211,102,0.25)] active:scale-95 transition-all duration-200"

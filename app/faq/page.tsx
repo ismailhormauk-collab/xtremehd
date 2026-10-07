@@ -113,7 +113,7 @@ export default async function FAQPage() {
             <h2 className="text-slate-900 font-bold text-xl mb-2">{p.stillHave}</h2>
             <p className="text-slate-500 mb-6 text-sm">{p.stillHaveSub}</p>
             <a
-              href={whatsappUrl("Hello, I have a question")}
+              href={whatsappUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#25D366] rounded-xl text-white font-bold hover:opacity-90 transition-all shadow-lg shadow-green-500/20"

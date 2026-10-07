@@ -18,7 +18,7 @@ export const faqItems: FAQItem[] = [
   {
     category: "General",
     question: "Is there a free trial available?",
-    answer: "Contact us on WhatsApp at +34 613 836 698 to ask about current trial options. We occasionally offer short trials for new customers to experience the service quality."
+    answer: "Contact us on WhatsApp at +44 7456 061424 to ask about current trial options. We occasionally offer short trials for new customers to experience the service quality."
   },
   {
     category: "Pricing",
@@ -28,7 +28,7 @@ export const faqItems: FAQItem[] = [
   {
     category: "Pricing",
     question: "What payment methods do you accept?",
-    answer: "We accept various payment methods. Contact us on WhatsApp (+34 613 836 698) for current payment options and to complete your order securely."
+    answer: "We accept various payment methods. Contact us on WhatsApp (+44 7456 061424) for current payment options and to complete your order securely."
   },
   {
     category: "Pricing",
@@ -88,7 +88,7 @@ export const faqItems: FAQItem[] = [
   {
     category: "Support",
     question: "How do I contact customer support?",
-    answer: "Our support team is available 24/7 via WhatsApp at +34 613 836 698 or Telegram at @pulseiptv4k. We typically respond quickly and can help with setup, technical issues, billing questions, and anything else you need."
+    answer: "Our support team is available 24/7 via WhatsApp at +44 7456 061424 or Telegram at @pulseiptv4k. We typically respond quickly and can help with setup, technical issues, billing questions, and anything else you need."
   },
   {
     category: "Support",

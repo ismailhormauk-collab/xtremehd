@@ -20,7 +20,7 @@ const supportOptions = [
     title: "WhatsApp Support",
     description: "Fastest way to reach us. Get a quick response, 24 hours a day.",
     contact: WHATSAPP_DISPLAY,
-    href: whatsappUrl("Hi, I need some help"),
+    href: whatsappUrl(),
     buttonText: "Open WhatsApp Chat",
     buttonClass: "bg-[#25D366] hover:opacity-90 text-white",
     available: "24/7 Available",
@@ -109,7 +109,7 @@ export default async function ContactPage() {
             {topics.map((topic) => (
               <a
                 key={topic.title}
-                href={whatsappUrl(`Hello, I have a question about: ${topic.title}`)}
+                href={whatsappUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-xl p-5 border border-blue-100 bg-white hover:border-blue-300 hover:shadow-md transition-all hover:-translate-y-1 group flex flex-col items-center text-center min-h-[120px]"
@@ -150,7 +150,7 @@ export default async function ContactPage() {
           <p className="text-slate-500 mb-6">{p.ctaSub}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
-              href={whatsappUrl("Hi, I'm interested. Can you help me?")}
+              href={whatsappUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-[#25D366] rounded-2xl text-white font-bold text-lg shadow-lg shadow-green-500/20 hover:opacity-90 hover:scale-105 transition-all"

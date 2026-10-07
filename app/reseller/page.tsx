@@ -88,7 +88,7 @@ export default async function ResellerPage() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href={whatsappUrl("Hi, I'm interested in becoming a reseller.")}
+                href={whatsappUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2.5 px-7 py-3.5 bg-[#25D366] rounded-xl text-white font-semibold text-sm hover:bg-[#20BA5C] active:scale-95 transition-all duration-200"
@@ -158,7 +158,7 @@ export default async function ResellerPage() {
           <p className="text-slate-500 mb-7">{p.ctaSub}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
-              href={whatsappUrl("Hi, I'm interested in becoming a reseller.")}
+              href={whatsappUrl()}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2.5 px-7 py-3.5 bg-[#25D366] rounded-xl text-white font-semibold text-sm hover:bg-[#20BA5C] active:scale-95 transition-all duration-200"

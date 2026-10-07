@@ -70,7 +70,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
                 <span className="relative">{dict.subscribeNow}</span>
               </Link>
               <a
-                href={whatsappUrl("Hi, I would like to request a free trial.")}
+                href={whatsappUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wide text-white border border-white/30 bg-white/[0.08] backdrop-blur-sm hover:bg-white/[0.16] hover:border-white/40 active:scale-95 transition-all duration-200"

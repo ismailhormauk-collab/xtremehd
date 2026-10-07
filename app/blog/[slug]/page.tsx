@@ -174,7 +174,7 @@ export default function BlogPostPage({ params }: Props) {
                     View Pricing Plans
                   </Link>
                   <a
-                    href={whatsappUrl("Hi, I read your blog and want to subscribe")}
+                    href={whatsappUrl()}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-6 py-3 bg-[#25D366]/10 border border-[#25D366]/30 text-[#128C4A] font-semibold rounded-xl hover:bg-[#25D366]/20 transition-all text-sm"
@@ -206,7 +206,7 @@ export default function BlogPostPage({ params }: Props) {
                   {DURATIONS.map(d => (
                     <a
                       key={d.key}
-                      href={whatsappUrl(`Hi, I'm interested in the ${d.label} plan`)}
+                      href={whatsappUrl()}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`flex items-center justify-between px-3 py-2.5 rounded-xl text-sm transition-all ${
@@ -221,7 +221,7 @@ export default function BlogPostPage({ params }: Props) {
                   ))}
                 </div>
                 <a
-                  href={whatsappUrl("Hi, I'm interested in subscribing")}
+                  href={whatsappUrl()}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-3 bg-[#25D366] text-white font-bold rounded-xl hover:opacity-90 transition-all text-sm"

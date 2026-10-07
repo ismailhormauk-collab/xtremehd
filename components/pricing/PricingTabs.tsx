@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Check, Star } from "lucide-react";
 import { DEVICE_TIERS, DURATIONS, COMMON_FEATURES, usd, deviceFeatureLine, type DeviceCount } from "@/lib/pricing";
+import { whatsappUrl } from "@/lib/contact";
 
 export default function PricingTabs() {
   const [selectedDevices, setSelectedDevices] = useState<DeviceCount>(1);
@@ -98,8 +98,10 @@ export default function PricingTabs() {
                 </ul>
 
                 {/* CTA */}
-                <Link
-                  href={`/checkout?plan=${d.key}&devices=${tier.devices}`}
+                <a
+                  href={whatsappUrl()}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`block w-full py-3.5 text-center text-sm font-bold uppercase tracking-wide text-white rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.99] ${
                     best
                       ? "bg-gradient-to-r from-blue-600 to-blue-500 shadow-lg shadow-blue-500/30 hover:from-blue-500 hover:to-blue-400 hover:shadow-blue-500/40"
@@ -107,7 +109,7 @@ export default function PricingTabs() {
                   }`}
                 >
                   Subscribe
-                </Link>
+                </a>
               </div>
             </div>
           );
